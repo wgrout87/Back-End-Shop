@@ -1,4 +1,5 @@
 # Back End Shop
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
@@ -8,6 +9,8 @@ Back End Shop is the back end for an e-commerce site. It was written using JavaS
 ## Links
 
 [Code repository](https://github.com/wgrout87/Back-End-Shop)
+
+[Application Demo](https://drive.google.com/file/d/1qIEStVu0V8P9-8cnpVMem6GUj2uzauFq/view)
 
 ## Table of Contents
 
@@ -20,7 +23,15 @@ Back End Shop is the back end for an e-commerce site. It was written using JavaS
 
 ## Installation
 
-To install this project, first clone the repository. In the command, from the base directory of the cloned repo, run the command, "npm i" to install the dependencies. Next in a MYSQL shell, run the command "SOURCE .\db\schema.sql;" to run the schema for this project. Then back in the command line, run the command "npm run seed" to seed the database with test data. At this point the project is ready to go, and can be started with the command "npm start".
+To install this project, first clone the repository. A file called simply ".env" needs to be created in the base directory. It requires the following data:
+
+DB_NAME='ecommerce_db'
+
+DB_USER='-your username here-'
+
+DB_PW='-your password here-'
+
+In the command line, from the base directory of the cloned repo, run the command, "npm i" to install the dependencies. Next in a MYSQL shell, run the command "SOURCE .\db\schema.sql;" to run the schema for this project. Then back in the command line, run the command "npm run seed" to seed the database with test data. At this point the project is ready to go, and can be started with the command "npm start".
 
 ## Usage
 
